@@ -1,0 +1,63 @@
+Full Name: [Your Full Name]
+Phone Number: [Your Phone Number]
+Email Address: [Your Email Address]
+LinkedIn Profile URL: [Your LinkedIn URL]
+GitHub Profile URL: [Your GitHub URL]
+Personal Portfolio Website URL: [Your Portfolio URL]
+Location: [City, Country]
+
+---
+
+### **Summary/Professional Objective**
+Motivated and detail-oriented aspiring software engineer with two months remaining in a 10-month Professional Development Certificate (PDC) program at SQI. Proficient in a full stack of technologies including React.js, Node.js, and Express, with practical experience in building and deploying web applications. Eager to leverage skills in front-end and back-end development to contribute to innovative projects and grow as a software developer.
+
+---
+
+### **Technical Skills**
+* **Frontend:** HTML, CSS, Bootstrap, Tailwind CSS, React.js, React PWA
+* **Backend:** Node.js, Express.js
+* **Languages:** JavaScript, TypeScript
+* **APIs:** GraphQL
+* **Concepts:** Data Structures and Algorithms
+
+---
+
+### **Projects**
+* **Bank App**
+    * **Description:** A secure web application for managing personal finances, including features like transactions, account balance tracking, and user authentication.
+    * **Technologies:** React.js, Node.js, Express, [Any other technologies you used]
+* **E-commerce Website**
+    * **Description:** A full-featured online store with a product catalog, shopping cart functionality, and secure checkout process.
+    * **Technologies:** React.js, Node.js, Express, [Any other technologies you used]
+* **Personal Website**
+    * **Description:** Your personal portfolio site to showcase your skills and projects.
+    * **Technologies:** HTML, CSS, JavaScript, React.js, [Any other technologies you used]
+* **Other Web Applications**
+    * [List and describe any other relevant projects you have built.]
+
+---
+
+### **Experience**
+* **Data Analyst, [Company Name or "Freelance"], 2022-2023**
+    * [Add a few key responsibilities or achievements here. For example: "Analyzed and interpreted large datasets to provide insights for business decisions."]
+
+---
+
+### **Education & Credentials**
+* **Professional Development Certificate (PDC) in Software Engineering**
+    * SQI, Lagos, Nigeria
+    * Expected Graduation: November 2025
+* **Ordinary National Diploma (OND)**
+    * The Oke-Ogun Polytechnic, Saki (TOPS)
+    * 2018-2020
+* **Secondary School Certificate**
+    * AYZ College
+    * 2011-2016
+
+---
+
+### **Key Experience / Skill & Expertise**
+* **Full Stack Development:** Proficient in building end-to-end web applications using the MERN stack (MongoDB, Express, React, Node.js).
+* **API Development:** Experience with building and consuming RESTful APIs and working with GraphQL for efficient data querying.
+* **Responsive Design:** Skilled in creating responsive and user-friendly interfaces using frameworks like Bootstrap and Tailwind CSS.
+* **Problem-Solving:** Applied knowledge of Data Structures and Algorithms to solve complex programming challenges and optimize code performance.
