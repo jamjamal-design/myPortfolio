@@ -6,13 +6,13 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  output: 'export',
   images: {
     unoptimized: true,
   },
-
+  output: 'export',
+  
 }
 
 
 
-export default nextConfig
+module.exports = nextConfig;
