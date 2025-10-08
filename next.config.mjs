@@ -9,10 +9,14 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export',
-  
-}
+  async rewrites() {
+    return [
+      {
+        source: '/projects/:slug*',
+        destination: '/projects',
+      },
+    ]
+  },
+};
 
-
-
-export default nextConfig
+export default nextConfig;

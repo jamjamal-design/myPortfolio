@@ -11,13 +11,19 @@ import { AnimatedSection } from "@/components/animated-section"
 import { PortfolioHeader } from "@/components/portfolio-header"
 
 interface ProjectPageProps {
-  params: {
-    slug: string
+  params?: {
+    slug?: string
+  }
+  searchParams?: {
+    slug?: string
   }
 }
 
-export default function ProjectPage({ params }: ProjectPageProps) {
-  const project = getProjectBySlug(params.slug)
+export default function ProjectPage({ params, searchParams }: ProjectPageProps) {
+  // Support both direct route params (if a dynamic route is ever used)
+  // and query string `?slug=...` which our rewrite will use.
+  const slug = params?.slug || searchParams?.slug
+  const project = slug ? getProjectBySlug(slug) : undefined
 
   if (!project) {
     notFound()

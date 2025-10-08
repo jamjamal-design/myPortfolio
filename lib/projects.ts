@@ -277,7 +277,16 @@ export function getAllProjects(): Project[] {
 }
 
 export function getProjectBySlug(slug: string): Project | undefined {
-  return projects.find((project) => project.slug === slug)
+  if (!slug) return undefined
+
+  const normalize = (s: string) =>
+    decodeURIComponent(s)
+      .toLowerCase()
+      .replace(/\s+/g, "-")
+
+  const target = normalize(slug)
+
+  return projects.find((project) => normalize(project.slug) === target)
 }
 
 export function getRelatedProjects(currentSlug: string, limit = 2): RelatedProject[] {
